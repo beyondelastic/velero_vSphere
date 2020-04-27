@@ -34,7 +34,7 @@ spec:
     spec:
       containers:
       - name: blog
-        image: bitnami/ghost:latest
+        image: ghost:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 2368
