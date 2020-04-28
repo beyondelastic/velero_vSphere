@@ -2,7 +2,7 @@
 Test yaml files for backup and restore with the Velero vSphere Plugin. 
 
 Storage Class yaml (cis-sc.yaml):
-- Make sure to enter your own storage class name and fatastoreurl into the file before applying it. 
+- Make sure to enter your own storage class name and datastoreurl into the file before applying it. 
 
 Ghost Persistent Volume Claim yaml (ghost-claim.yaml):
 - Edit the file and change the storage class name if you have used a different name. 
