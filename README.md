@@ -1,6 +1,6 @@
 # velero_vSphere
-Test yaml and configuration files I have used for my backup and restore test with the Velero vSphere Plugin. 
-
+Test yaml and configuration files I have used for my backup and restore test with the Velero vSphere Plugin. The process is documented here: https://beyondelastic.com/2020/04/30/backup-and-migrate-tkgi-pks-to-tkg-with-velero/
+ 
 Storage Class yaml (cis-sc.yaml):
 - Storage Class used for the test application on source cluster (backup cluster). Make sure to enter your own storage class name and datastoreurl into the file before applying it.
 
